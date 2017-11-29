@@ -17,6 +17,7 @@ setup(
     long_description=README,
     install_requires=[
         'docker==2.6.1',
+        'boto3==1.4.8',
     ],
     entry_points={
         'console_scripts': [
