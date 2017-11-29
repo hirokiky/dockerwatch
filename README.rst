@@ -1,6 +1,6 @@
-=========
-Dockermon
-=========
+===========
+Dockerwatch
+===========
 
 Monitoring script for Docker.
 
@@ -17,18 +17,18 @@ Installation
 
 ::
 
-    $ pip install dockermon
+    $ pip install dockerwatch
 
 Usage
 =====
 
 ::
 
-   $ dockermon --settings=/path/to/dockermon.json
+   $ dockerwatch --settings=/path/to/dockerwatch.json
 
 
-dockermon.json
---------------
+dockerwatch.json
+-----------------
 
 .. code-block:: json
 

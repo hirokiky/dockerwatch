@@ -2,7 +2,7 @@ import time
 
 import boto3
 
-from dockermon.settings import settings
+from dockerwatch.settings import settings
 
 
 def get_client():
@@ -24,7 +24,7 @@ def send_stats(stats):
 
     # Put NumberOfContainers
     client.put_metric_data(
-        Namespace='Dockermon',
+        Namespace='Dockerwatch',
         MetricData=[{
             'MetricName': 'NumberOfContainers',
             'Dimensions': [

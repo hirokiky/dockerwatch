@@ -3,7 +3,7 @@ Module to correct stats data from Docker.
 """
 import docker
 
-from dockermon.settings import settings
+from dockerwatch.settings import settings
 
 
 def get_client():

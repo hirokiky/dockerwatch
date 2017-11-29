@@ -1,8 +1,8 @@
 import argparse
 
-from dockermon.backends.cloudwatch import send_stats
-from dockermon.stats import retrieve_stats
-from dockermon.settings import initial_settings
+from dockerwatch.backends.cloudwatch import send_stats
+from dockerwatch.stats import retrieve_stats
+from dockerwatch.settings import initial_settings
 
 
 def main():

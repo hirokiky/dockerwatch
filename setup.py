@@ -6,10 +6,10 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.rst')).read()
 
 setup(
-    name='dockermon',
+    name='dockerwatch',
     version='0.0.1',
     packages=find_packages(),
-    url='https://github.com/hirokiky/dockermon',
+    url='https://github.com/hirokiky/dockerwatch',
     license='MIT',
     author='Hiroki KIYOHARA',
     author_email='hirokiky@gmail.com',
@@ -20,7 +20,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dockermon = dockermon.main:main',
+            'dockerwatch = dockerwatch.main:main',
         ],
     },
 )
